@@ -1,0 +1,214 @@
+body{
+	background:url(img/bg.jpg) repeat-y center top #000;
+	margin:0;
+	padding:0;
+
+}
+#full{
+	background:url(img/full.jpg) repeat-y top left #000;
+	width:720px;
+	min-height:1000px;
+	margin:auto;
+}
+#left{
+	background:url(img/middle.jpg) no-repeat top right transparent;
+	width:434px;
+	color:#DDD;
+	text-align:left;
+	padding-top:1px;
+	padding-bottom:1px;
+	height:100%;
+	min-height:700px;
+
+
+}
+h1{
+	font-size: 25px;
+	font:22px "Arial Black", Arial, Helvetica, sans-serif;
+	margin : 0;
+	margin-left: 30px;
+}
+#left p{
+	font:12px Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+a{
+	color:#FFF000;
+	text-decoration:none;
+	font-weight:900;
+
+}
+.subtitle{
+	font:22px "Arial Black", Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	margin-right: 50px;
+	color: black;
+	background-color: yellow;
+	font-size: 12px;
+}
+.yellowline{
+	min-height: 5px;
+	background-color: yellow;
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.underlink{
+	font:10px Arial, sans-serif;
+	margin-left: 35px;
+	margin-right: 50px;
+}
+.leftbaryellow{
+	width: 3px;
+	height: 25px;
+	margin-left: 30px;
+	background-color: yellow;
+	float: left;
+}
+.floatingimgleft img{
+	float: left;
+	margin-left: 30px;
+	margin-right: 5px;
+	margin-top: 15px;
+	border: 2px solid yellow;
+	padding:3px;
+}
+.floatingimgright img{
+	float: right;
+	margin-right: 50px;
+	margin-top: 15px;
+	border: 2px solid yellow;
+	padding:3px;
+}
+.blockstyle{
+    width: 70%;
+    margin-left: 50px;
+    background-color: #222;
+    border-top: 2px solid #FFF000;
+    border-bottom: 2px solid #FFF000;
+    font-size: small;
+}
+.ulist{
+	list-style-image:url(img/bullet.gif);
+}
+.resize{
+	font-size: 12px;	
+	margin-left: 20px;
+}
+#mylink{
+	float: left;
+}
+#webdesign{	
+	float: left;
+	margin-right: 50px;
+}
+#mylink a{
+	display: block;
+    height: 15px;
+    color: #777;
+    font-weight: normal;
+    padding: 10px 3px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: #0F0F0F;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+#mylink li{
+    list-style-type: none;
+}
+#footer{
+	color:#FFF;
+	height:288px;
+	padding:20px 0 25px 0;
+	margin-right:-40px;
+	background:url(img/footer.gif) no-repeat bottom right transparent;
+}
+#copyright{
+	color: white;
+	text-align: left;
+	margin-left: 30px;
+	font-size: 12px;
+	margin-top: 270px;
+}
+#title{
+	background:url(img/title.jpg) no-repeat ;
+	height:372px;
+}
+#right{
+	float:right;
+	width:286px;
+	min-height:700px;
+}
+#bigtitle{
+	display: inline-block;
+	color: white;
+	font-size: 50px;
+	font:62px "Arial Black", Arial, Helvetica, sans-serif;
+	font-weight:900;
+	text-transform:uppercase;
+	padding:80px 20px 0 0;
+	line-height:45px;
+	letter-spacing:-6px;	
+	margin-left: 30px;
+}
+#link{
+	font-size: 28px;
+	text-align: left;
+	list-style-image:url(img/star1.jpg);
+}
+#link a{
+	position: relative;
+	color: white;
+	font:22px "Arial Black", Arial, Helvetica, sans-serif;
+	font-weight:900;
+	text-transform:uppercase;
+}
+#link li:hover{
+	list-style-image:url(img/star2.jpg);
+}
+#link a:hover{
+	color:#FFF000;
+}
+.yellowlineright{
+	min-height: 4px;
+	background-color: yellow;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+#right p{
+	margin-top: 0;
+	color: white;
+    font: 22px "Arial Black", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 28px;
+}
+.toptextborder{
+	color: #ED145A;
+	background-color: yellow;
+    font: 12px "Arial Black", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+	line-height: 14px;
+	margin-right: 50px;
+	padding-left: 2px;
+	margin-bottom: 0;
+}
+.yellowbox{
+    display: inline-block;
+    width: 230px;
+	margin-top: 0;
+	border-left:3px solid yellow;
+	border-right: 3px solid yellow;
+	border-bottom: 3px solid yellow;
+}
+.yellowbox li{
+    font: 14px "Arial Black", Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-bottom: 10px;
+    list-style-type: none;
+}
+.yellowbox a{
+	color: white;
+}
